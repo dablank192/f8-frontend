@@ -1,0 +1,18 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px;
+}
+
+#para{
+    color: aliceblue;
+    background-color: aqua;
+}
+
+.title{
+    color: blue;
+    background-color: antiquewhite;
+}
+
+.contain h2 {
+    color: blueviolet;
+}
