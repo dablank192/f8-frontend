@@ -1,0 +1,19 @@
+#tieu-de{
+    color: blue;
+    text-align: center;
+}
+
+table{
+    border: 1px solid black;
+    width: 600px;
+}
+
+th{
+    background-color: yellow;
+    border: 1px;
+    padding: 10px;
+}
+
+.diem-cao{
+    background-color: lightgreen;
+}
