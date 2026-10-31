@@ -1,0 +1,43 @@
+input[type="text"] {
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+input[type="email"] {
+  border: 1px solid blue;
+}
+
+input[type="password"] {
+  background-color: lightyellow;
+}
+
+input[required] {
+  border: 2px solid red;
+}
+
+a[href^="https://"] {
+  color: green;
+}
+
+a[href^="http://"] {
+  color: red;
+  text-decoration: line-through;
+}
+
+a[href$=".pdf"] {
+  color: orange;
+  font-weight: bold;
+}
+
+a[href*="gmail"] {
+  font-style: italic;
+}
+
+button[type="submit"] {
+  background-color: blue;
+  color: white;
+}
+
+button[type="reset"] {
+  background-color: gray;
+}

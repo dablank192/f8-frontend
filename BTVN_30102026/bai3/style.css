@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+  height: 20vh;
+  width: 100vw;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.card {
+  width: 50%;
+  max-width: 400px;
+  padding: 1.5em;
+  color: blue;
+}
+
+.price {
+  font-size: 1.25rem;
+}
+
+.price span {
+  font-size: 1.5em;
+}
+
+.card a {
+  color: inherit;
+}
+
+.card h3 {
+  color: initial;
+}
+
+ul {
+  list-style-type: initial;
+}

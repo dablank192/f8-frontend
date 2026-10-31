@@ -1,0 +1,60 @@
+nav a:first-child {
+  font-weight: bold;
+}
+
+nav a:last-child {
+  color: red;
+}
+
+nav a:hover {
+  color: white;
+  background-color: blue;
+}
+
+nav a:not(:last-child)::after {
+  content: " |";
+}
+
+ul {
+  list-style: none;
+}
+
+li:nth-child(odd) {
+  background-color: #eee;
+}
+
+li:nth-child(even) {
+  background-color: white;
+}
+
+li:nth-child(3) {
+  color: blue;
+  font-weight: bold;
+}
+
+li::before {
+  content: "✔ ";
+}
+
+li:hover {
+  font-style: italic;
+}
+
+p::first-letter {
+  font-size: 3em;
+  color: red;
+}
+
+p::first-line {
+  text-transform: uppercase;
+}
+
+input::placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+
+input:focus {
+  border-color: blue;
+  outline: none;
+}
