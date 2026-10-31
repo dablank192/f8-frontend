@@ -1,0 +1,43 @@
+input{
+    border: 3px gray solid;
+    border-radius: 5px;
+}
+
+input[type="email"]{
+    border-color: blue;
+}
+
+input[type="password"]{
+    border-color: yellow;
+}
+
+input[name="fullname"]{
+    border: 5px solid red
+}
+
+p > a[href="https://google.com"] {
+    color: green;
+}
+
+p > a[href="http://example.com"]{
+    color: red;
+    text-decoration: line-through;
+}
+
+p > a[href$=".pdf"]{
+    color: orange;
+    font-weight: bold;
+}
+
+p > a[href$="@gmail.com"]{
+    font-style: italic;
+}
+
+button[type="submit"]{
+    background-color: blue;
+    color: white;
+}
+
+button[type="reset"]{
+    background-color: grey;
+}
