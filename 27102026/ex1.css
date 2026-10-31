@@ -1,0 +1,21 @@
+p::selection{
+    color: red;
+    background-color: yellow;
+}
+
+input::placeholder{
+    color: red;
+}
+
+#test:hover{
+    color: red;
+}
+
+#test:active{
+    color: blue;
+}
+
+button:focus{
+    color: red;
+    
+}
