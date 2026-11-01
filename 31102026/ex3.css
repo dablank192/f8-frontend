@@ -1,0 +1,52 @@
+nav a:hover{
+    color: white;
+    background-color: blue;
+}
+
+nav > a:nth-child(1){
+    font-weight: bold;
+}
+
+nav > a:nth-child(4){
+    color: red;
+}
+
+nav a:not(:last-of-type)::after{
+    content: "|";
+    margin:  5px;
+}
+
+ul > li:nth-child(1),
+ul > li:nth-child(3),
+ul > li:nth-child(5){
+    background-color: gray;
+}
+
+ul > li:nth-child(3){
+    color: blue;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: "✓";
+}
+
+ul > li:hover{
+    font-style: italic;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 48px;
+}
+
+input::placeholder{
+    color: grey;
+    font-style: italic;
+}
+
+input:focus{
+    outline: 2px solid;
+    border: 2px solid blue;
+    color: blue;
+}

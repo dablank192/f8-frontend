@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2rem;
+    height: 20%;
+    width: auto;
+}
+
+.card h3{
+    font-size: 1.5rem;
+}
+
+.card{
+    width: 50%;
+    max-width: 400px;
+}
+
+.card > *{
+    padding: 1.5rem;
+}
+
+.price{
+    font-size: 1.25rem;
+}
+
+span{
+    font-size: 1.5em;
+}

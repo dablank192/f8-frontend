@@ -1,0 +1,54 @@
+.banner{
+    height: 60vh;
+    isolation: isolate;
+    position: relative;
+    min-height: 300px;
+}
+ 
+.banner::before{
+    content: "";
+    position: absolute;
+    background: rgb(0 0 0 / 40%);
+    inset: 0;
+    z-index: -1;
+}
+
+.banner > img{
+    object-fit: cover;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    position: absolute;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.slogan{
+    text-align: center;
+    font-style: italic;
+}
+
+.content{
+    background: linear-gradient(to right, white, blue);
+}
+
+.content h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.content > p:nth-child(2){
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.note{
+    background-color: yellow;
+    color: brown;
+    font-weight: bold;
+}
