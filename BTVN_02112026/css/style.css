@@ -46,8 +46,12 @@
 }
 
 #cf1 img{
+    display: block;
     width: 100%;
     height: auto;
+    aspect-ratio: 1.76 / 1;
+    object-fit: cover;
+    object-position: center;
 }
 
 .intro{
