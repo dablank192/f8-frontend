@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.box {
+  width: 30%;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+}
+
+.box .info {
+  padding: 10px;
+}
+.box .badge {
+  background: red;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 0.8em;
+  padding: 5px 10px;
+}
+
+.prod-img{
+    position: relative;
+}
+
+.box .badge{
+    position: absolute;
+    right: 9px;
+    bottom: 9px
+}
